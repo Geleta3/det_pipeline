@@ -1,4 +1,4 @@
-# det_pipeline
+# Dataset Pipeline for Object Detection Based on Pytorch
 Data pipelining for object detection. 
 
 This repo aims at unifying different dataset pipelining for object detection
