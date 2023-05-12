@@ -5,6 +5,7 @@ import pickle
 from .dataset import Dataset
 from PIL import Image
 
+# COCO 
 
 class CocoDataset(Dataset):
     def __init__(self, mode, img_dir, ann_dir=None, ann_cache='coco_ann.pkl', label_cache='coco_label.pkl', 
