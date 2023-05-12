@@ -5,7 +5,7 @@ from .dataset import Dataset
 
 
 class TxtDataset(Dataset):
-    # pickle the labels.
+    # pickle the labels. 
     # pickle the annotations in a consistent way.
     # self.img_ann = {'image_name': {width: , height: , bbox: [[xmin, ymin, xmax, ymax], ], label: [...]}}
     # self.label_idx = {'cat': 1, 'dog': 2,...}
