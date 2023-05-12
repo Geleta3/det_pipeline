@@ -7,7 +7,7 @@ import torch
 import torch.utils.data as data
 from PIL import Image
 
-
+# Parent class 
 class Dataset(data.Dataset):
     """
     >> Children Class constructor implements and will contain the following mainly.
