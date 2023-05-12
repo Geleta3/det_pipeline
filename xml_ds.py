@@ -21,7 +21,7 @@ config = {
 
 }
 
-
+# Might take some times. 
 class XmlDataset(Dataset):
     def __init__(self, mode, img_dir, ann_dir=None, ann_cache='xml_cache.pkl', label_cache='xml_label.pkl', 
                 transform=None, training_labels: list = [], print_every=200,
