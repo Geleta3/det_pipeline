@@ -3,7 +3,7 @@ Data pipelining for object detection.
 
 This repo aims at unifying different dataset pipelining for object detection
 based on pytorch framework. Currently this repo contains three formats, for MSCOCO, 
-annoation in txt (Yolo1 format) and xml format. Pipeline for Visual Genome dataset is under way. 
+annoation in txt (Yolo1 format) Visual Genome and xml format.
 
 All datasets inherit the class Dataset in ```dataset.py``` file and **overwrite** the ```__init__``` method. 
 If you have different format of dataset you can inherit the class <Dataset> and overwrite the __init__. 
@@ -19,4 +19,4 @@ One of the benefits in these repo is that it enable the annotations to be cached
 no time is wasted in uploading the datasets. 
 
 Further documentation will be added. 
-If you have any bugs or question feel free to pull request. 
+If you have any bugs or question feel free to create issue
